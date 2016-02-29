@@ -25,9 +25,9 @@ h2 {
 p {
   color: #4B0082;
   background: white;
-  background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.1));
-  background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.1));
-  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.1));
+  background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.3));
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.3));
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,.3));
   padding: 10px;
   line-height: 28px;
   text-align: justify;
@@ -104,7 +104,5 @@ small {
   small {
     font-size: 8px;
   }
-  li {
-    padding: 0 20px 0 20px;
-  }
+
 }
