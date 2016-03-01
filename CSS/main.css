@@ -1,5 +1,5 @@
 body {
-  font-family: helvetica, sans-serif;
+  font-family: georgia, serif;
   margin: 50px 100px 50px 100px;
   background: #7B68EE;
 }
@@ -7,8 +7,9 @@ body {
 div {
   height: 300px;
   background-size: cover;
-  position: relative;
+  position: relative; 
   margin: 40px 0 0 0;
+  border: 2px solid #4B0082;
 }
 
 h1 {
@@ -68,9 +69,12 @@ header {
 }
 
 .footer-list {
+  margin-left: 40px;
   display: inline;
-  padding: 0 100px 0 100px;
+  padding: 0 50px 0 50px;
   color: #E6E6FA;
+  cursor: pointer;
+  cursor: hand;
 }
 
 small {
@@ -97,6 +101,13 @@ small {
 
 .price {
   float: right;
+}
+
+.button {
+  background-color: #7B68EE;
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px solid #E6E6FA;
 }
 
 @media (max-width: 500px) {
